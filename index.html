@@ -3,6 +3,18 @@
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
 		<meta charset="utf-8">
+		<script>
+    initFontSize()
+    window.onresize = () => {
+        initFontSize()
+    }
+    function initFontSize() {
+      var html = document.getElementsByTagName("html")[0];
+      const clientWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+      // 375 -> fontSize = 16px
+      html.style.fontSize = clientWidth / 375 * 16 + 'px';
+    }
+</script>
 		<style type="text/css">
 			*{
 				padding: 0px;
