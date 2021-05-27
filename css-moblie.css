@@ -1,0 +1,52 @@
+				header{
+					width: 100vw;
+					height: 40vw;
+					margin: 5px auto;
+					border: 1px solid red;
+					font-size: 50px;
+				}
+				.wenzigundong font{
+					font-size: 50px;
+					
+				}
+				.wenzigundong marquee{
+					height: 80px;
+				}
+				.wenzigundong{
+					height: 80px;
+					border: 1px solid red;
+				}
+				section{
+					width: 100vw;
+					height: 40vw;
+					margin: 5px auto;
+					font-size: 50px;
+				}
+				.tops {
+					height: 300px;
+				}
+				.left{
+					width: 40vw;
+					height: 30vw;
+					float: left;
+					border: 3px solid rgba(231,231,231);
+					font-size: 50px;
+					background: whitesmoke;
+					border-radius: 50px;
+				}
+				.right{
+					width: 40vw;
+					height: 30vw;
+					float:right;
+					border: 3px solid rgba(231,231,231);
+					font-size: 50px;
+					background: whitesmoke;
+					border-radius: 50px;
+					
+				}
+				footer{
+					width: 100vw;
+					height: 40vw;
+					margin: 250px auto;
+					border: 1px solid blue;
+				}
