@@ -1,52 +1,181 @@
-				header{
-					width: 100vw;
-					height: 40vw;
-					margin: 5px auto;
-					border: 1px solid red;
-					font-size: 50px;
-				}
-				.wenzigundong font{
-					font-size: 50px;
-					
-				}
-				.wenzigundong marquee{
-					height: 80px;
-				}
-				.wenzigundong{
-					height: 80px;
-					border: 1px solid red;
-				}
-				section{
-					width: 100vw;
-					height: 40vw;
-					margin: 5px auto;
-					font-size: 50px;
-				}
-				.tops {
-					height: 300px;
-				}
-				.left{
-					width: 40vw;
-					height: 30vw;
-					float: left;
-					border: 3px solid rgba(231,231,231);
-					font-size: 50px;
-					background: whitesmoke;
-					border-radius: 50px;
-				}
-				.right{
-					width: 40vw;
-					height: 30vw;
-					float:right;
-					border: 3px solid rgba(231,231,231);
-					font-size: 50px;
-					background: whitesmoke;
-					border-radius: 50px;
-					
-				}
-				footer{
-					width: 100vw;
-					height: 40vw;
-					margin: 250px auto;
-					border: 1px solid blue;
-				}
+* {
+				padding: 0px;
+				margin: 0px;
+			}
+
+			header {
+				width: 100vw;
+				height: 40vw;
+				margin: 5px auto;
+				border: 1px solid red;
+				font-size: 50px;
+			}
+
+			.wenzigundong font {
+				font-size: 50px;
+
+			}
+
+			.wenzigundong marquee {
+				height: 80px;
+			}
+
+			.wenzigundong {
+				height: 80px;
+				border: 1px solid red;
+			}
+
+			section {
+				width: 100vw;
+				height: 40vw;
+				margin: 5px auto;
+				font-size: 50px;
+			}
+
+			.tops {
+				height: 300px;
+				border: 1px solid black;
+			}
+
+			.left {
+				width: 400px;
+				height: 200px;
+				float: left;
+				border: 3px solid rgba(231, 231, 231);
+				font-size: 38px;
+				background: whitesmoke;
+				border-radius: 10px;
+			}
+
+			.shian {
+				float: left;
+				font-size: 30px;
+				width: 200px;
+				height: 60px;
+				border-radius: 10px;
+				margin: 20px auto;
+				margin-left: 50px;
+				background: rgb(255, 87, 110);
+				border: none;
+			}
+
+			.shi img {
+				width: 100px;
+				height: 100px;
+				float: right;
+			}
+
+			.right {
+				width: 400px;
+				height: 200px;
+				float: right;
+				border: 3px solid rgba(231, 231, 231);
+				font-size: 38px;
+				background: whitesmoke;
+				border-radius: 10px;
+			}
+
+			.xuean {
+				float: left;
+				font-size: 30px;
+				width: 200px;
+				height: 60px;
+				border-radius: 10px;
+				margin: 20px auto;
+				margin-left: 50px;
+				background: rgb(107, 201, 29);
+				border: none;
+			}
+
+			.xue img {
+				width: 100px;
+				height: 100px;
+				float: right;
+			}
+
+			footer {
+				width: 982px;
+				height: 300px;
+				margin: 5px auto;
+				border: 1px solid blue;
+			}
+
+			.footer-top {
+				width: 982px;
+				line-height: 40px;
+				margin-left: 10px;
+			}
+
+			.xueke {
+				width: 450px;
+				height: 100px;
+				line-height: 40px;
+				margin: 20px auto;
+				margin-left: 10px;
+				float: left;
+			}
+
+			.shuxue {
+				width: 100px;
+				height: 50px;
+				margin-left: 20px;
+				float: left;
+				background-color: rgb(255, 255, 255);
+			}
+
+			.wuli {
+				width: 100px;
+				height: 50px;
+				margin-left: 20px;
+				float: left;
+				background-color: rgb(255, 255, 255);
+			}
+
+			.yueqi {
+				width: 130px;
+				height: 50px;
+				margin-left: 10px;
+				float: left;
+				background-color: rgb(255, 255, 255);
+			}
+
+			.sheyin {
+				width: 130px;
+				height: 50px;
+				margin-left: 10px;
+				float: left;
+				background-color: rgb(255, 255, 255);
+			}
+
+			.huihua {
+				width: 130px;
+				height: 50px;
+				margin-left: 10px;
+				float: left;
+				background-color: rgb(255, 255, 255);
+			}
+
+			.sanbi {
+				width: 120px;
+				height: 50px;
+				margin-left: 20px;
+				float: left;
+				background-color: rgb(255, 255, 255);
+			}
+
+			.zujiao {
+				width: 130px;
+				height: 50px;
+				margin-left: 20px;
+				float: left;
+				background-color: rgb(255, 255, 255);
+			}
+
+			.xueke ul a {
+				font-size: 20px;
+				margin-left: 30px;
+				line-height: 50px;
+				background-color: rgb(255, 255, 255);
+				color: rgb(51, 51, 51);
+				text-decoration: none;
+			}
