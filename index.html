@@ -11,7 +11,7 @@
 
 		header {
 			width: 100vw;
-			height: 40vw;
+			height: 46vw;
 			margin: 5px auto;
 			font-size: 50px;
 		}
@@ -40,19 +40,27 @@
 			margin: 5px auto;
 			font-size: 30px;
 		}
-		.linear{
-			background-image: linear-gradient(pink,skyblue);
+
+		.linear {
+			background-image: linear-gradient(pink, skyblue);
 			width: 100vw;
 			height: 20px;
 		}
-		.tops {
-			height: 330px;
-			line-height: 45px;
-		}
 
+		.tops {
+			height: 210px;
+			line-height: 55px;
+		}
+		.tops2{
+			margin: 50px auto;
+			width: 900px;
+			height: 180px;
+			border: 1px solid rgb(1,33,82);
+		}
 		.left {
 			width: 40vw;
 			height: 30vw;
+			margin-top: 50px;
 			float: left;
 			font-size: 50px;
 			border-radius: 50px;
@@ -80,6 +88,7 @@
 			width: 40vw;
 			height: 30vw;
 			float: right;
+			margin-top: 50px;
 			font-size: 50px;
 			border-radius: 50px;
 
@@ -107,19 +116,16 @@
 			width: 100vw;
 			height: 70vw;
 			margin: 250px auto;
-			border: 1px solid blue;
 		}
 
 		.footer_left {
-			width: 50vw;
+			width: 100vw;
 			height: 70vw;
-			margin-top:0px;
-			border: 1px solid blue;
-			float: left;
 		}
 
 		.footer-top {
-			width: 49vw;
+			margin: auto;
+			width: 100vw;
 			height: 2vw;
 			margin-left: 10px;
 		}
@@ -177,31 +183,41 @@
 		}
 
 		.footer_right {
-			height: 70vw;
-			width: 49vw;
-			float: right;
+			height: 60vw;
+			width: 100vw;
 		}
-		.zixun{
-			line-height: 6.5vw;
+
+		.zixun {
+			line-height: 12vw;
 			font-size: 35px;
-			
+
 		}
-		.zixun ul a{
+
+		.zixun ul a {
+			margin-top: 5px;
 			text-decoration: none;
 		}
-		.last{
+
+		.last {
 			float: left;
 		}
-		.wenti{
+
+		.wenti {
 			float: left;
 			line-height: 5vw;
 			font-size: 50px;
 		}
-		.wenti ul a{
+
+		.wenti ul a {
 			text-decoration: none;
 		}
+		.linear1{
+			background-image: linear-gradient(pink, skyblue);
+			width: 30vw;
+			height: 10px;
+		}
 	</style>
-	<body>
+	<body style="background-color: rgb(190,216,239);">
 		<div id="img" style="position: absolute; left: 311; top: 815;visibility :hidden;" οnmοuseοver="clearInterval(interval)"
 		 οnmοuseοut="interval = setInterval('changePos()', delay)" align="middle">
 			<span style="CURSOR:hand;color:red;font-weight:bold;font-size:12px;float: right; " οnclick="clearInterval(interval);img.style.visibility = 'hidden'">关闭</span>
@@ -264,7 +280,7 @@
 			}
 			start();
 		</script>
-		<header style="background: url(top.png);background-size:982px">
+		<header style="background: url(top1.png);background-size:100vw">
 			<div class="wenzigundong">
 				<marquee direction="right" behavior="alternate" scrollamount="15" scrolldelay="10" loop="1000" height="40" bgcolor="skyblue">
 					<font face="隶书" color="#0066FF" size="6">电话</font>
@@ -272,41 +288,45 @@
 			</div>
 		</header>
 		<section>
-			<div class="tops" >
-				<a>&nbsp;&nbsp;“各有千秋才艺变现”是在我国现阶段“培养德智体美全面发展的社会主义事业建设者和接班人”的教育目的下提出、针对才艺辅导班收费昂贵、校园兼职陷阱多的社会问题，以“线上+线下”的服务模式，让有才艺特长的大学生成为兼职教员，获得生活费的收入来源，做自己喜欢做的事情同时还能使才艺变成一桶金；为有热情学习才艺特长的各年龄段学生、职业工作者提供学习平台。坚持热情、诚信、高质的服务，立足永州，面向湖南，辐射全国，打造独有的才艺变现公益品牌！</a>
+			<div class="tops">
+				<div class="tops2">
+				<a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我的精彩，我的未来，在这里<a style="font-size: 30px;color: #FF0000;">————各有千秋，才艺变现</a></br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;（线上+线下的服务模式，为更多想要寻找兼职或寻找老师的同学提供服务）
+				</a>
+				</div>
 			</div>
 			<div class="linear"></div>
 			<div class="left">
 				<div style="line-height: 80px;height: 130px;">
-				<a href="qingjiajiao.html" style="margin-left: 10px; color: rgb(252,20,19);font-weight: 600;">我要找教员<br />
-					<a style="font-size: 45px;margin-left: 10px;">我是学生</a><br />
-					</div>
-					<form action="laoshi.html">
-						<input class="shian" type="submit" tabindex="8" value="教员库"></form>
-					<div class="shi">
-						<img src="shi.jpg" style="margin-top: 10px; border-radius: 10px;"></img>
-					</div>
+					<a href="qingjiajiao.html" style="margin-left: 10px; color: rgb(252,20,19);font-weight: 600;">我要找教员<br />
+						<a style="font-size: 45px;margin-left: 10px;">我是学生</a><br />
+				</div>
+				<form action="laoshi.html">
+					<input class="shian" type="submit" tabindex="8" value="教员库"></form>
+				<div class="shi">
+					<img src="shi.jpg" style="margin-top: 10px; border-radius: 10px;"></img>
+				</div>
 			</div>
 			<div class="right">
 				<div style="line-height: 80px;height: 130px;">
-				<a href="zuojiajiao.html" style="margin-left: 10px; color: rgb(107,201,29);font-weight: 600;">我要找学生<br />
-					<a style="font-size: 45px;margin-left: 10px;">我是老师</a><br />
-					</div>
-					<form action="xueyuan.html">
-						<input class="xuean" type="submit" value="学员库"></form>
-					<div class="xue">
-						<img src="xue.jpg" style="margin-top: 10px; border-radius: 10px;"></img>
-					</div>
+					<a href="zuojiajiao.html" style="margin-left: 10px; color: rgb(107,201,29);font-weight: 600;">我要找学生<br />
+						<a style="font-size: 45px;margin-left: 10px;">我是老师</a><br />
+				</div>
+				<form action="xueyuan.html">
+					<input class="xuean" type="submit" value="学员库"></form>
+				<div class="xue">
+					<img src="xue.jpg" style="margin-top: 10px; border-radius: 10px;"></img>
+				</div>
 			</div>
 		</section>
 		<footer>
 			<div class="footer_left">
-				<h2 class="footer-top" style="font-size: 50px;margin: 0 auto;">热门科目</h2>
+				<div class="linear1"></div>
+				<h2 class="footer-top" style="font-size: 50px;color: rgb(1,33,82);">热门科目</h2>
 				<div class="xueke">
 					<a style="font-size: 45px;">学科类</a>
 				</div>
 				<div class="kemu1">
-					<a href="">数学</a>
+					<a href="" >数学</a>
 					<a href="" style="margin-left: 40px;">物理</a>
 				</div>
 				<div class="caiyi">
@@ -315,7 +335,7 @@
 				<div class="kemu2">
 					<a href="">乐器乐声</a>
 					<a href="" style="margin-left: 40px;">摄影剪辑</a>
-					<a href="">绘画陶艺</a>
+					<a href="" style="margin-left: 40px;">绘画棋类</a>
 				</div>
 
 				<div class="jiaoshi">
@@ -327,7 +347,8 @@
 				</div>
 			</div>
 			<div class="footer_right">
-				<h2 style="font-size: 50px; margin: 0 auto;">最新资讯</h2>
+				<div class="linear1"></div>
+				<h2 style="font-size: 50px; margin: 0 auto;color: rgb(1,33,82);">最新资讯</h2>
 				<div class="zixun">
 					<ul>
 						<a href="">
@@ -347,7 +368,8 @@
 			</div>
 			<div class="last">
 				<div class="title">
-				<h2 style="font-size: 70px;margin: 0 auto;">常见问题</h2>
+					<div class="linear1"></div>
+					<h2 style="font-size: 50px;margin: 0 auto;color: rgb(1,33,82);">常见问题</h2>
 				</div>
 				<div class="wenti">
 					<ul>
@@ -357,7 +379,7 @@
 					</ul>
 				</div>
 			</div>
-			
+
 		</footer>
 	</body>
 </html>
